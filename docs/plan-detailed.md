@@ -1,0 +1,75 @@
+# Tailored Generative AI Learning Path
+
+
+## Learning Plan
+
+| Step | Focus                                                           | Estimated Duration | Link to the Course                                                                                                                                                                                                                                                                                                                                            |
+| ---- | --------------------------------------------------------------- | ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1    | AI Foundations (AI Terminology, Governance, Ethics)             | ~30 hrs            | [Elements of AI](https://www.elementsofai.com/)                                                                                                                                                                                                                                                                                                               |
+| 2    | GenAI Basics (How it Works, Risks, LLMs, Responsible AI)        | ~6 hrs             | [Google Cloud](https://www.cloudskillsboost.google/course_templates/536), [Coursera](https://www.coursera.org/learn/generative-ai-for-everyone)                                                                                                                                                                                                               |
+| 3    | Prompt Engineering (How to Interact with AI Models Effectively) | ~3 hrs             | [Udemy](https://www.udemy.com/course/chat-gpt/?couponCode=24T4MT180225), [Coursera](https://www.coursera.org/learn/advanced-prompt-engineering-for-everyone)                                                                                                                                                                                                  |
+| 4    | GenAI for Business Strategy (Enterprise & Governance Use Cases) | ~1 hr              | [LinkedIn Learning](https://www.linkedin.com/learning/generative-ai-for-business-leaders)                                                                                                                                                                                                                                                                     |
+| 5    | Hands-On Work (Using & Debugging AI Models in Real-World)       | ~120 hrs           | [Kaggle](https://www.kaggle.com/learn-guide/5-day-genai), [DeepLearning.AI](https://www.deeplearning.ai/courses/generative-ai-for-software-development/), [Gradio](https://www.deeplearning.ai/short-courses/building-generative-ai-applications-with-gradio/), [Debugging AI](https://www.deeplearning.ai/short-courses/evaluating-debugging-generative-ai/) |
+| 6    | Multi-Cloud Vendor-Specific AI Model Implementation             | ~60 hrs            | [Google Cloud AI](https://cloud.google.com/genai/), [Snowflake Cortex](https://www.snowflake.com/en/data-cloud/snowflake-cortex/)                                                                                                                                                                                                                             |
+
+---
+
+## **Project 1: Automotive Company - AI for Parts & Fitment Standardization**
+
+### **Business Problems**
+1. Not every part manufacturer follows the same naming standards for the parts they manufacture.
+2. Not every part manufacturer maintains a list of all the vehicles their parts fit under.
+
+### **AI Solution**
+Currently, companies rely on traditional ETL processes with predefined business rules and assumptions. AI can:
+1. Use existing AI models (not from scratch) to categorize and standardize part names.
+2. Train a model using publicly available automotive data to predict missing fitment information.
+
+### **Implementation Plan**
+1. **Data Sources**:  
+   - Kaggle automotive datasets.  
+   - NHTSA vehicle data API.  
+   - Open-source auto parts data.  
+2. **AI Models**:  
+   - Google Cloud Vertex AI AutoML for text classification and entity recognition.  
+   - Amazon Comprehend for extracting part names and categories.  
+   - Snowflake Cortex AI for vector search to find similar part names.  
+3. **Prototype Development**:  
+   - Extract and process manufacturer part names.  
+   - Apply Snowflake Cortex AI to detect duplicates/similar names.  
+   - Use GCP AutoML or AWS Comprehend to predict missing vehicle fitment data.  
+4. **Deployment**:  
+   - AI-powered ETL workflow to standardize part names.  
+   - AI-driven recommendation engine for missing fitment data.  
+
+---
+
+## **Project 2: Food Supply Chain Company - AI for Customer & Delivery Unification**
+
+### **Business Problems**
+1. **Duplicate Customer Records Across ERPs**  
+   - A grocery store that buys meats and fresh produce appears as two different customers in different ERPs.
+2. **Multiple Deliveries for the Same Customer**  
+   - Separate deliveries due to different ERP feeds.
+
+### **AI Solution**
+1. AI can match and unify customers across multiple ERPs.
+2. AI can consolidate deliveries to reduce inefficiencies.
+
+### **Implementation Plan**
+1. **Data Sources**:  
+   - USDA Food Dataset.  
+   - Kaggle grocery & retail data.  
+   - SAP Data APIs for ERP connectivity.  
+2. **AI Models**:  
+   - Google Vertex AI Matching Engine for deduplicating customers across ERPs.  
+   - Amazon SageMaker Clustering for grouping similar deliveries.  
+   - Snowflake Cortex AI for finding best customer matches.  
+3. **Prototype Development**:  
+   - Extract customer records from different ERPs.  
+   - Use AI-powered entity resolution for unified customer IDs.  
+   - Apply AI clustering to optimize delivery schedules.  
+4. **Deployment**:  
+   - Embed AI-powered customer matching into ETL workflows.  
+   - Optimize delivery schedules dynamically using AI recommendations.  
+   - Allow manual review for AI-generated matches.  
