@@ -1,6 +1,5 @@
 # My Generative AI Learning Journey
 
-
 ## Background
 I operate at both strategic and hands-on levels:
 1. Designing high-level architectures and coding.
@@ -11,7 +10,6 @@ I operate at both strategic and hands-on levels:
 I want to:
 1. Leverage Generative AI to enhance data ecosystems, governance, and business intelligence.
 2. Align AI applications with enterprise-scale data architectures (e.g., GCP Gemini, Snowflake Cortex, AWS AI).
-
 
 ### AI Learning Steps
 1. AI Fundamentals (Governance, Ethics, Terminology)
@@ -28,4 +26,4 @@ All code used for learning can be found in **[learning-code](https://github.com/
 My hands-on AI projects can be found in **[genai-implementation](https://github.com/surajkandukuri/genai-implementation/)**.
 
 ## Detailed Learning Plan
-My detailed learning plan can be found [here](https://surajkandukuri.github.io/genai-learning/docs/plan-detailed).
+My detailed learning plan can be found [here](./docs/plan-detailed).
