@@ -26,4 +26,4 @@ All code used for learning can be found in **[learning-code](https://github.com/
 My hands-on AI projects can be found in **[genai-implementation](https://github.com/surajkandukuri/genai-implementation/)**.
 
 ## Detailed Learning Plan
-My detailed learning plan can be found [here](./plan-detail.html).
+My detailed learning plan can be found [here](/plan-detail.html).
