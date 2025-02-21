@@ -29,4 +29,4 @@ My hands-on AI projects can be found in **[genai-implementation](https://github.
 My detailed learning plan can be found [here](detailed-plan.html).
 
 ## Terminology
-Basic Terminology can be found [here](Terminology.html).
+Basic Terminology can be found [here](terminology.html).
