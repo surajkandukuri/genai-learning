@@ -27,3 +27,6 @@ My hands-on AI projects can be found in **[genai-implementation](https://github.
 
 ## Detailed Learning Plan
 My detailed learning plan can be found [here](detailed-plan.html).
+
+## Terminology
+Basic Terminology can be found [here](Terminology.html).
